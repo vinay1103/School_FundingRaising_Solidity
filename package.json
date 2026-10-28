@@ -1,0 +1,32 @@
+{
+  "name": "school_fundingraising_solidity",
+  "version": "1.0.0",
+  "description": "This Solidity smart contract is tailored for schools raising funds from its donors to undertake its initiatives. It allows contributions from donors, facilitates voting among contributors, and disburses funds based on community agreement, fostering decentralized fundraising with accountability in educational settings.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "node scripts/deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinay1103/School_FundingRaising_Solidity.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/vinay1103/School_FundingRaising_Solidity/issues"
+  },
+  "homepage": "https://github.com/vinay1103/School_FundingRaising_Solidity#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^4.2.1",
+    "@nomicfoundation/hardhat-mocha": "^4.0.1",
+    "@nomicfoundation/hardhat-toolbox": "^7.0.0",
+    "chai": "^6.3.0",
+    "ethers": "^6.17.0",
+    "hardhat": "^3.21.1",
+    "mocha": "^12.0.3"
+  }
+}

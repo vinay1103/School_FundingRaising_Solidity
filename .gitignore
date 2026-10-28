@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Hardhat build outputs & cache
+artifacts/
+cache/
+typechain/
+typechain-types/
+
+# Environment & local secrets
+.env
+.env.*
+!.env.example
+
+# Coverage and testing
+coverage/
+coverage.json
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
